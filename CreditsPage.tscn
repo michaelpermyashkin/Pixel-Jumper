@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://MoonBackground.jpg" type="Texture" id=1]
+
+[node name="MarginContainer" type="MarginContainer"]
+margin_right = 640.0
+margin_bottom = 360.0
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 4961.0
+margin_bottom = 4434.0
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+margin_left = -200.0
+margin_top = -500.0
+margin_right = 4761.0
+margin_bottom = 3934.0
+rect_scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 1 )
+

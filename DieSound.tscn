@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://sounds/zapsplat_multimedia_game_tone_error_retro_002_25922 (online-audio-converter.com).wav" type="AudioStream" id=1]
+
+[node name="DieSound" type="AudioStreamPlayer"]
+
+stream = ExtResource( 1 )
+volume_db = 0.0
+pitch_scale = 0.8
+autoplay = false
+mix_target = 0
+bus = "Master"
+
+

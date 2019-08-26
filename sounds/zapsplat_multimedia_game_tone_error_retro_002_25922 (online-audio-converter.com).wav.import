@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/zapsplat_multimedia_game_tone_error_retro_002_25922 (online-audio-converter.com).wav-03f601f65179d59e6027537238b2ca1a.sample"
+
+[deps]
+
+source_file="res://sounds/zapsplat_multimedia_game_tone_error_retro_002_25922 (online-audio-converter.com).wav"
+dest_files=[ "res://.import/zapsplat_multimedia_game_tone_error_retro_002_25922 (online-audio-converter.com).wav-03f601f65179d59e6027537238b2ca1a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/zapsplat_cartoon_dreamy_heavenly_glissando_harp_choir_12662 (online-audio-converter.com).wav-003d4e8749f04223369ce9332d38557b.sample"
+
+[deps]
+
+source_file="res://sounds/zapsplat_cartoon_dreamy_heavenly_glissando_harp_choir_12662 (online-audio-converter.com).wav"
+dest_files=[ "res://.import/zapsplat_cartoon_dreamy_heavenly_glissando_harp_choir_12662 (online-audio-converter.com).wav-003d4e8749f04223369ce9332d38557b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=true
+force/max_rate_hz=100000.0
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

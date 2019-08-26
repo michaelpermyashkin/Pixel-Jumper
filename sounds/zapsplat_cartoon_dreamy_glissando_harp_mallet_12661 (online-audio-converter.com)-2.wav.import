@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/zapsplat_cartoon_dreamy_glissando_harp_mallet_12661 (online-audio-converter.com)-2.wav-2825e721025d4c8dcb32e10493757e68.sample"
+
+[deps]
+
+source_file="res://sounds/zapsplat_cartoon_dreamy_glissando_harp_mallet_12661 (online-audio-converter.com)-2.wav"
+dest_files=[ "res://.import/zapsplat_cartoon_dreamy_glissando_harp_mallet_12661 (online-audio-converter.com)-2.wav-2825e721025d4c8dcb32e10493757e68.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

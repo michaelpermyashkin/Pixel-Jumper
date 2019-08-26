@@ -1,0 +1,2 @@
+# StartMenu.gd
+extends Button

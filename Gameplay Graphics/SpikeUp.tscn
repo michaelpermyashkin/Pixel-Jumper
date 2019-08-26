@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Gameplay Graphics/SpikeUp.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Platformer Art Complete Pack_0/Base pack/Items/spikes.png" type="Texture" id=2]
+[ext_resource path="res://SpikeHitSound.tscn" type="PackedScene" id=3]
+
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 22, 18 )
+
+[node name="SpikesUp" type="Area2D"]
+position = Vector2( 0, 1 )
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.9, 0.9 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2( 0, 15.6538 )
+scale = Vector2( 1, 0.778388 )
+shape = SubResource( 1 )
+
+[node name="SpikeHitSound" parent="." instance=ExtResource( 3 )]
+
+[connection signal="body_entered" from="." to="." method="_on_SpikesUp_body_entered"]

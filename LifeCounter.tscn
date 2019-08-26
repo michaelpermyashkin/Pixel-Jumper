@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Counter.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Sprites/Platformer Art Complete Pack_0/Base pack/HUD/hud_heartFull.png" type="Texture" id=2]
+
+[node name="LifeCounter" index="0" instance=ExtResource( 1 )]
+margin_left = -315.0
+margin_top = -195.0
+margin_right = -207.0
+margin_bottom = -142.0
+rect_scale = Vector2( 0.5, 0.5 )
+
+[node name="Background" parent="." index="0"]
+margin_left = 0.0
+
+[node name="Icon" parent="Background" index="0"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 72.0
+margin_bottom = 76.0
+texture = ExtResource( 2 )
+
+[node name="Number" parent="Background" index="1"]
+margin_right = -7.0
+text = ""
+align = 2
+

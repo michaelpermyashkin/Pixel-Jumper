@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/zapsplat_household_gate_latch_unlock_002_22369 (online-audio-converter.com).wav-c3140c9714812f01f038fa8812e3f3d5.sample"
+
+[deps]
+
+source_file="res://sounds/zapsplat_household_gate_latch_unlock_002_22369 (online-audio-converter.com).wav"
+dest_files=[ "res://.import/zapsplat_household_gate_latch_unlock_002_22369 (online-audio-converter.com).wav-c3140c9714812f01f038fa8812e3f3d5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,38 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://CoinCounter.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Sprites/Comfortaa-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Sprites/Platformer Art Complete Pack_0/Base pack/HUD/hud_keyYellow_disabled.png" type="Texture" id=3]
+
+
+
+
+
+[sub_resource type="DynamicFont" id=1]
+size = 28
+extra_spacing_bottom = 7
+font_data = ExtResource( 2 )
+
+[node name="NoKey" index="0" instance=ExtResource( 1 )]
+margin_left = -320.0
+margin_top = -125.0
+margin_right = -212.0
+margin_bottom = -72.0
+
+[node name="Background" parent="." index="0"]
+visible = false
+margin_left = 0.0
+
+[node name="Icon" parent="Background" index="0"]
+visible = false
+
+[node name="Number" parent="Background" index="1"]
+visible = false
+custom_fonts/font = SubResource( 1 )
+
+[node name="Icon" type="TextureRect" parent="." index="1"]
+margin_right = 108.0
+margin_bottom = 53.0
+texture = ExtResource( 3 )
+stretch_mode = 4
+

@@ -1,0 +1,162 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://DirtAutoTile.tres" type="TileSet" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Level Complete.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Gameplay Graphics/Coin.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Gameplay Graphics/SmallPlant.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Gameplay Graphics/SpikeUp.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Gameplay Graphics/Key.tscn" type="PackedScene" id=7]
+
+
+
+
+
+[node name="World5" type="Node"]
+
+[node name="TileMap" type="TileMap" parent="." index="0"]
+
+position = Vector2( 96, -1088 )
+mode = 0
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 64, 64 )
+cell_quadrant_size = 16
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 4, 0, 6, 5, 0, 196609, 6, 0, 196609, 7, 0, 196609, 8, 0, 196609, 9, 0, 196609, 10, 0, 196609, 11, 0, 196609, 12, 0, 196609, 13, 0, 196609, 14, 0, 196609, 15, 0, 196609, 16, 0, 7, 65540, 0, 65541, 65552, 0, 65542, 65553, 0, 196609, 65554, 0, 7, 131075, 0, 6, 131076, 0, 65543, 131087, 0, 196613, 131090, 0, 65542, 131091, 0, 7, 196611, 0, 65541, 196617, 0, 6, 196618, 0, 196610, 196621, 0, 5, 196627, 0, 65541, 262147, 0, 131075, 262148, 0, 196609, 262149, 0, 196609, 262150, 0, 196610, 262153, 0, 65541, 262156, 0, 6, 262157, 0, 65543, 262161, 0, 6, 262162, 0, 196609, 262163, 0, 196612, 327683, 0, 65541, 327689, 0, 131077, 327691, 0, 196608, 327692, 0, 65543, 327696, 0, 1, 327697, 0, 11, 327699, 0, 65541, 393218, 0, 6, 393219, 0, 65543, 393231, 0, 196608, 393232, 0, 65544, 393233, 0, 65547, 393234, 0, 196609, 393235, 0, 196612, 458752, 0, 6, 458753, 0, 196609, 458754, 0, 65543, 458759, 0, 196608, 458760, 0, 10, 458761, 0, 9, 458762, 0, 196610, 458771, 0, 65541, 524288, 0, 65541, 524296, 0, 65537, 524297, 0, 65538, 524307, 0, 65541, 589824, 0, 65541, 589828, 0, 196608, 589829, 0, 196609, 589830, 0, 7, 589836, 0, 196608, 589837, 0, 196609, 589838, 0, 7, 589842, 0, 196608, 589843, 0, 196612, 655360, 0, 8, 655361, 0, 2, 655366, 0, 65542, 655367, 0, 7, 655369, 0, 196613, 655374, 0, 131075, 655375, 0, 196610, 655379, 0, 65541, 720896, 0, 65537, 720897, 0, 131079, 720898, 0, 2, 720903, 0, 65541, 720910, 0, 131077, 720915, 0, 65541, 786433, 0, 131073, 786434, 0, 196615, 786435, 0, 196610, 786439, 0, 8, 786440, 0, 9, 786441, 0, 196609, 786442, 0, 196610, 786449, 0, 196608, 786450, 0, 10, 786451, 0, 11, 851969, 0, 65546, 851970, 0, 65538, 851974, 0, 196608, 851975, 0, 196614, 851976, 0, 131074, 851980, 0, 5, 851986, 0, 65546, 851987, 0, 65538, 917504, 0, 6, 917505, 0, 65543, 917511, 0, 65537, 917512, 0, 65538, 917516, 0, 8, 917517, 0, 2, 917519, 0, 6, 917520, 0, 196609, 917521, 0, 196609, 917522, 0, 65543, 983040, 0, 65541, 983043, 0, 6, 983044, 0, 196610, 983051, 0, 6, 983052, 0, 65544, 983053, 0, 65547, 983054, 0, 10, 983055, 0, 11, 1048576, 0, 65542, 1048577, 0, 196609, 1048578, 0, 196609, 1048579, 0, 65543, 1048582, 0, 196608, 1048583, 0, 196609, 1048584, 0, 196609, 1048585, 0, 196610, 1048587, 0, 131077, 1048590, 0, 65537, 1048591, 0, 65538 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
+
+position = Vector2( 608, -96 )
+z_index = 1
+_sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="Level Complete" parent="." index="2" instance=ExtResource( 3 )]
+
+position = Vector2( 640, -960 )
+
+[node name="Coins" type="Node" parent="." index="3"]
+
+editor/display_folded = true
+
+[node name="Coin" parent="Coins" index="0" instance=ExtResource( 4 )]
+
+position = Vector2( 192, -96 )
+
+[node name="Coin2" parent="Coins" index="1" instance=ExtResource( 4 )]
+
+position = Vector2( 512, -352 )
+
+[node name="Coin3" parent="Coins" index="2" instance=ExtResource( 4 )]
+
+position = Vector2( 320, -608 )
+
+[node name="Coin4" parent="Coins" index="3" instance=ExtResource( 4 )]
+
+position = Vector2( 576, -480 )
+
+[node name="Coin5" parent="Coins" index="4" instance=ExtResource( 4 )]
+
+position = Vector2( 1088, -352 )
+
+[node name="Coin6" parent="Coins" index="5" instance=ExtResource( 4 )]
+
+position = Vector2( 1280, -608 )
+
+[node name="Coin7" parent="Coins" index="6" instance=ExtResource( 4 )]
+
+position = Vector2( 1024, -160 )
+
+[node name="Coin8" parent="Coins" index="7" instance=ExtResource( 4 )]
+
+position = Vector2( 1280, -864 )
+
+[node name="Coin9" parent="Coins" index="8" instance=ExtResource( 4 )]
+
+position = Vector2( 1088, -992 )
+
+[node name="Coin10" parent="Coins" index="9" instance=ExtResource( 4 )]
+
+position = Vector2( 448, -992 )
+
+[node name="Coin11" parent="Coins" index="10" instance=ExtResource( 4 )]
+
+position = Vector2( 960, -736 )
+
+[node name="Coin12" parent="Coins" index="11" instance=ExtResource( 4 )]
+
+position = Vector2( 384, -736 )
+
+[node name="Graphics" type="Node" parent="." index="4"]
+
+editor/display_folded = true
+
+[node name="SmallPlant" parent="Graphics" index="0" instance=ExtResource( 5 )]
+
+position = Vector2( 288, -64 )
+
+[node name="SmallPlant2" parent="Graphics" index="1" instance=ExtResource( 5 )]
+
+position = Vector2( 352, -320 )
+scale = Vector2( 1.5, 1.5 )
+
+[node name="SmallPlant3" parent="Graphics" index="2" instance=ExtResource( 5 )]
+
+position = Vector2( 512, -512 )
+scale = Vector2( 2.25, 2.25 )
+
+[node name="SmallPlant4" parent="Graphics" index="3" instance=ExtResource( 5 )]
+
+position = Vector2( 480, -832 )
+scale = Vector2( 2.25, 2.25 )
+
+[node name="SmallPlant5" parent="Graphics" index="4" instance=ExtResource( 5 )]
+
+position = Vector2( 992, -896 )
+scale = Vector2( 1.625, 1.625 )
+
+[node name="SmallPlant6" parent="Graphics" index="5" instance=ExtResource( 5 )]
+
+position = Vector2( 1120, -704 )
+scale = Vector2( 1.625, 1.625 )
+
+[node name="SmallPlant7" parent="Graphics" index="6" instance=ExtResource( 5 )]
+
+position = Vector2( 1120, -448 )
+scale = Vector2( 1.625, 1.625 )
+
+[node name="SmallPlant8" parent="Graphics" index="7" instance=ExtResource( 5 )]
+
+position = Vector2( 1248, -192 )
+scale = Vector2( 1.625, 1.625 )
+
+[node name="SpikeUp" parent="Graphics" index="8" instance=ExtResource( 6 )]
+
+position = Vector2( 640, -672 )
+
+[node name="SpikeUp2" parent="Graphics" index="9" instance=ExtResource( 6 )]
+
+position = Vector2( 1152, -224 )
+
+[node name="Key" type="Node" parent="." index="5"]
+
+editor/display_folded = true
+
+[node name="Key" parent="Key" index="0" instance=ExtResource( 7 )]
+
+position = Vector2( 960, -416 )
+
+

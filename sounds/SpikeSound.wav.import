@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/SpikeSound.wav-de6e170b7303b987b9af348b64cd21ba.sample"
+
+[deps]
+
+source_file="res://sounds/SpikeSound.wav"
+dest_files=[ "res://.import/SpikeSound.wav-de6e170b7303b987b9af348b64cd21ba.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

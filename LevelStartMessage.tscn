@@ -1,0 +1,52 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/Comfortaa-Bold.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://Label.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+
+size = 120
+use_mipmaps = false
+use_filter = false
+extra_spacing_char = 6
+font_data = ExtResource( 1 )
+_sections_unfolded = [ "Extra Spacing", "Font", "Settings" ]
+
+[node name="LevelStartMessage" type="Node"]
+
+[node name="Label" type="Label" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = -320.0
+margin_top = -64.0
+margin_right = 320.0
+margin_bottom = 71.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 1 )
+text = "LEVEL"
+align = 1
+valign = 1
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+script = ExtResource( 2 )
+_sections_unfolded = [ "custom_fonts" ]
+
+[node name="Timer" type="Timer" parent="." index="1"]
+
+process_mode = 1
+wait_time = 3.0
+one_shot = false
+autostart = false
+
+[connection signal="timeout" from="Timer" to="Label" method="_on_Timer_timeout"]
+
+
