@@ -26,16 +26,24 @@ Select 'scan' and navigate to the directory containing the cloned repository
 
 
 ## Gameplay Images
-[Main Menu Display](/Images/MainMenu.png)
+#### Main Menu Display
+<img src="/Images/MainMenu.png">
 
-[Level Image](/Images/Level.png)
+#### Level Graphics
+This is an example of what a level looks like.
+<img src="/Images/Level.png">
 
-[Mushroom and spikes](/Images/Mushroom.png)
+#### Mushrooms and Spikes
+Some features I added were mushrooms and spikes. Mushrooms allow the player to regain some health that is lost from spikes or a fall. Spikes on the other hand, are a hazard the player must avoid.
+<img src="/Images/Mushroom.png">
 
-[HUD Display](/Images/HUD-Display)
+#### HUD Display
+This is the HUD display during the game. The HUD displays lives remaing and the total number of coins collected. Another feature I added displays whether the key has been collected. At the start of the level, the key is hollow. Once the key is collected, the key image fills in. 
+<img src="/Images/HUD-Display.png">
+
 
 ### Disclaimer:
 I do not take credit for any art used in this project. All elements of the project were open source. Once I completed the tutorial, I began adding features as I saw fit. 
 https://www.youtube.com/watch?v=wETY5_9kFtA
 
-As Kanye West said:
+
