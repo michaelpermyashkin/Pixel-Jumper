@@ -4,14 +4,13 @@ https://www.youtube.com/watch?v=wETY5_9kFtA
 
 ## Running this project
 
-### Install Godot
-1.) https://godotengine.org/download/ 
+1.) Install Godot: https://godotengine.org/download/ 
 
 2.) Clone the repository
 
 3.) Open Godot and navigate to the directory containing the cloned repository
 
-4.) Run
+4.) Run the project
 
 
 
