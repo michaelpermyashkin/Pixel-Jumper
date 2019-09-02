@@ -41,9 +41,13 @@ Some features I added were mushrooms and spikes. Mushrooms allow the player to r
 This is the HUD display during the game. The HUD displays lives remaing and the total number of coins collected. Another feature I added displays whether the key has been collected. At the start of the level, the key is hollow. Once the key is collected, the key image fills in. 
 <img src="/Images/HUD-Display.png">
 
+### Built with 
+[Godot Game Engine](https://godotengine.org/download/windows)
 
-### Disclaimer:
-I do not take credit for any art used in this project. All elements of the project were open source. Once I completed the tutorial, I began adding features as I saw fit. 
-https://www.youtube.com/watch?v=wETY5_9kFtA
+### Author 
+* Michael Permyashkin
+
+### Acknowledgements:
+[Godot Tutorial](https://www.youtube.com/watch?v=wETY5_9kFtA) - The starting point of this project
 
 
