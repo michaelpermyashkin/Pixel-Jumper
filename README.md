@@ -1,6 +1,8 @@
 # Pixel-Jumper
 This was my first project working with the Godot game engine. I followed the tutorial below to get started with the project and learn the Godot engine. 
 
+## Play Demo
+[demo](https://michaelpermyashkin.github.io/pages/PixelJumperDemo.html)
 ## Getting Started
 The following instructions explain how to clone the project locally and run Pixel Jumper within Godot.
 
